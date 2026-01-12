@@ -32,32 +32,32 @@
           <div class="down">
             <div class="left">
               <label for="first_name">FIRST NAME:</label>
-              <input type="text" id="first_name">
+              <input autocomplete="off" required type="text" id="first_name" minlength="2">
 
 
 
-              <label for="email">EMAIL</label>
-              <input type="email" id="email">
+              <label for="email">EMAIL:</label>
+              <input autocomplete="off" required type="email" id="email">
 
 
 
               <label for="password">PASSWORD:</label>
-              <input type="password" id="password">
+              <input autocomplete="off" required type="password" id="password" minlength="5">
 
             </div>
             <div class="right">
               <label for="last_name">LAST NAME:</label>
-              <input type="text" id="last_name">
+              <input autocomplete="off" required type="text" id="last_name" minlength="2">
 
 
 
               <label for="ph_no.">PHONE NUMBER:</label>
-              <input type="number" id="ph_no.">
+              <input autocomplete="off" required type="tel" pattern="[0-9]{10}" id="ph_no.">
 
 
 
               <label for="cpassword">CONFIRM PASSWORD:</label>
-              <input type="password" id="cpassword">
+              <input autocomplete="off" required type="password" id="cpassword">
             </div>
           </div>
         </div>
