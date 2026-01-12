@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Forms</title>
   <link rel="stylesheet" href="styles.css">
 
   <!-- font -->
@@ -24,12 +24,49 @@
         <br>
         <p><u>Fill It Below.</u></p>
       </div>
-      <div class="form">
+      <form action="">
+        <div class="form">
+          <div class="up">
+            <h2>Sign Up!</h2>
+          </div>
+          <div class="down">
+            <div class="left">
+              <label for="first_name">FIRST NAME:</label>
+              <input type="text" id="first_name">
 
-      </div>
-      <div class="submit">
-        <button type="submit" id="form-submit">Create Account</button>
-      </div>
+
+
+              <label for="email">EMAIL</label>
+              <input type="email" id="email">
+
+
+
+              <label for="password">PASSWORD:</label>
+              <input type="password" id="password">
+
+            </div>
+            <div class="right">
+              <label for="last_name">LAST NAME:</label>
+              <input type="text" id="last_name">
+
+
+
+              <label for="ph_no.">PHONE NUMBER:</label>
+              <input type="number" id="ph_no.">
+
+
+
+              <label for="cpassword">CONFIRM PASSWORD:</label>
+              <input type="password" id="cpassword">
+            </div>
+          </div>
+        </div>
+        <div class="submit">
+          <button type="submit" id="form-submit">Create Account</button>
+          <br>
+          <p>Already have an Account? <a href="">Log in</a></p>
+        </div>
+      </form>
     </div>
   </div>
 
